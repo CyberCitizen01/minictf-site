@@ -3,7 +3,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-var time = 1617368400000
+var time = '2022-01-31T00:00:00.000+05:30'
 console.log(time);
 
 let countDown = new Date(time).getTime();
