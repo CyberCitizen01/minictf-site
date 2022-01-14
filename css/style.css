@@ -106,30 +106,30 @@ a:hover {
 #nav-expand {
   display: none;
 }
-.navbar {
+.x-heading {
   margin-top: 20pt;
   margin-bottom: 20pt;
 }
-.navbar .brand {
+.x-heading .brand {
   font-size: 5rem;
   text-align: center;
   display: block;
   text-decoration: none;
 }
-.navbar .nav {
+.x-heading .nav {
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
-.navbar .nav li {
+.x-heading .nav li {
   display: inline-block;
   padding: 15px;
 }
-.navbar .nav li.active a {
+.x-heading .nav li.active a {
   color: #afa;
 }
-.navbar .nav li a {
+.x-heading .nav li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
@@ -161,16 +161,16 @@ a:hover {
   }
 }
 @media only screen and (max-width: 500px) {
-  .navbar .brand {
+  .x-heading .brand {
     font-size: 2rem;
   }
-  .navbar .nav li a {
+  .x-heading .nav li a {
     font-size: 1.1rem;
   }
-  .navbar .nav {
+  .x-heading .nav {
     display: block;
   }
-  .navbar .nav li {
+  .x-heading .nav li {
     display: none;
     text-align: center;
   }
