@@ -209,6 +209,12 @@ a:hover {
     padding: 10px;
     display: block;
   }
+  .container>h4{
+    font-size: 1rem;
+  }
+  .container>p{
+    font-size: .7rem;
+  }
 }
 
 .center-image {
