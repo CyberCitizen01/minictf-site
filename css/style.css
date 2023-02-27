@@ -154,6 +154,27 @@ a:hover {
   justify-content: center;
   flex-direction: column;
 }
+.videos>h1{
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.container1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 @media only screen and (max-width: 767px) {
   .content {
     margin-left: 6%;
@@ -187,6 +208,12 @@ a:hover {
   .expanded .nav li {
     padding: 10px;
     display: block;
+  }
+  .container>h4{
+    font-size: 1rem;
+  }
+  .container>p{
+    font-size: .7rem;
   }
 }
 
